@@ -55,7 +55,10 @@ Build a simplified enrollment mangement application where users can create, upda
 **Testing**: Implement unit and integration tests for key components and API routes.  
 
 
+__________
 # Live Coding Extention
+_Below will not be given to the candidate beforehand but will be shared with them during the interview_
+
 
 Live Coding Extention -
 During your onsite you will discuss and demo your take home solution. As part of this there will be a live coding entension where you will implement additional functionality.
