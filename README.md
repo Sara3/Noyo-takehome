@@ -39,7 +39,7 @@ Build a simplified enrollment mangement application where users can create, upda
 - Tailwind CSS: Style the application using Tailwind CSS.
 - Authentication: Implement authentication using a service like Firebase, Auth0, or a custom solution.
 
-**Back-End:**
+### Back-End
 
 **API Routes:**
     Use Next.js API routes to create a RESTful API for managing all domain objects. 
@@ -49,7 +49,7 @@ Build a simplified enrollment mangement application where users can create, upda
 
 **Technical Requirements:**
 
-**TypeScrip*: Use TypeScript for type safety.  
+**TypeScrip**: Use TypeScript for type safety.  
 **State Managemen**: Use React's Context API or a state management library (e.g., Redux) to manage the application state.  
 **Code Quality**: Write clean, maintainable code following SOLID principles and best practices. Include comments where necessary and ensure code is well-structured.  
 **Testing**: Implement unit and integration tests for key components and API routes.  
