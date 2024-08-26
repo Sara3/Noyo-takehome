@@ -41,7 +41,7 @@ Build a simplified enrollment mangement application where users can create, upda
 
 **Back-End:**
 
-**API Routes:* *
+**API Routes:**
     Use Next.js API routes to create a RESTful API for managing all domain objects. 
     Implement CRUD operations (Create, Read, Update, Delete) for employees and enrollments  
 **Database:** Store data in a database (e.g., MongoDB, PostgreSQL, or a cloud solution like Firebase Firestore).  
