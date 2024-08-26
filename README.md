@@ -81,12 +81,12 @@ incoming segment wins
 
 Take Home
 
-**Functionality:** Does the application meet the functional requirements? Are all features implemented correctly?
-**Code Quality:** Is the code clean, maintainable, and well-organized?
-**UI/UX:** Is the application visually appealing and easy to use? Is the design responsive?
-**Performance:** Is the application performant? Are there any unnecessary re-renders or slow API calls?
-**Security:** Is authentication and authorization implemented correctly? Are sensitive routes protected?
-**Testing:** Are there sufficient tests covering critical functionality?
+**Functionality:** Does the application meet the functional requirements? Are all features implemented correctly?  
+**Code Quality:** Is the code clean, maintainable, and well-organized?  
+**UI/UX:** Is the application visually appealing and easy to use? Is the design responsive?  
+**Performance:** Is the application performant? Are there any unnecessary re-renders or slow API calls?  
+**Security:** Is authentication and authorization implemented correctly? Are sensitive routes protected?  
+**Testing:** Are there sufficient tests covering critical functionality?  
 
  
 Live
