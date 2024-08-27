@@ -1,11 +1,16 @@
-# Coding Challenge: Employee Enrollment Management Application
+# Enrollment Management Application
 
-## Overview
 Build a simple enrollment management application where users can create, update, delete, and view insurance enrollments for a group of employees. 
 
 **Group** - A group is a collection of individuals covered under a single insurance policy.  
 **Employee** - An employee is defined as an individual who works for an employer and is eligible to participate in the employer's group insurance plan.  
 **Enrollment** - The start and end dates where a particular plan covers an employee.
+
+## Requirements
+### Back-End
+
+**API Routes:** Use Next.js API routes to create a RESTful API for managing all domain objects. Implement the CRUD operations (Create, Read, Update, Delete) for employees and enrollments.  
+**Database:** Store data in a database (e.g., MongoDB, PostgreSQL, or a cloud solution like Firebase Firestore).  
 
 ## Data Modeling
 - A group must have a name, for example, "Noyo Corporation."
@@ -15,9 +20,10 @@ Build a simple enrollment management application where users can create, update,
 - Each employee can enroll in any of the plans.
 - Each plan has a start and end date.
 
-![Figure 2](/data.png)
+**TypeScript**: Use TypeScript for type safety.  
+**Code Quality**: Write clean, maintainable code following SOLID principles and best practices. Include comments where necessary and ensure the code is well-structured and extensible (you will have to extend it in your onsite)
 
-## Requirements
+![Figure 2](/data.png)
 
 ### Front-End
 **Stories**  
@@ -30,28 +36,17 @@ Build a simple enrollment management application where users can create, update,
 - As a Noyo admin, I want to see a list of all my groups.
 - As a Noyo admin, I want to see an individual employee and their enrollments.
 
----
-Below is simple wireframe for a single page app to get you started, feel free to use this for inspiration... or design something you like more.
-
-![Figure 3](/simple-ui.png)
-
-**Technical Requirements:**  
+**Libraries**  
 - React.js: Build the user interface using React.js v18.*.
 - Next.js: Use Next.js to handle server-side rendering and routing.
 - You can style and construct the UI however you see fit.
 
-### Back-End
+Below is simple wireframe for a single page app to get you started, feel free to use this for inspiration... or design something you like more.
 
-**API Routes:** Use Next.js API routes to create a RESTful API for managing all domain objects. Implement the CRUD operations (Create, Read, Update, Delete) for employees and enrollments.  
-**Database:** Store data in a database (e.g., MongoDB, PostgreSQL, or a cloud solution like Firebase Firestore).  
+![Figure 1](/simple-ui.png)
 
 
-**Technical Requirements:**
-
-**TypeScript**: Use TypeScript for type safety.  
-**Code Quality**: Write clean, maintainable code following SOLID principles and best practices. Include comments where necessary and ensure the code is well-structured and extensible (you will have to extend it in your onsite)
-
-## Deliverables
+# Deliverables
 - Zip up your code and email it to **coding-challenge at noyo dot com** no later than 24 hrs before your interview.
 - Deploy the application to a platform like Vercel, Netlify, or any cloud provider.
 
@@ -60,7 +55,7 @@ Below is simple wireframe for a single page app to get you started, feel free to
 During your onsite, you will discuss and demo your take-home solution. As part of this, there will be a live coding extension where you will implement additional functionality at the discretion of the interviewer.
 
 
-### Final Word!
+## Final Word!
 We are looking for a functional app with excellent quality and an intuitive and responsive UI/UX. Your time is valuable, so you should be able to stand up and deploy a solution in a couple of hours using any one-stop-shop, free cloud platform, and related UI libraries. We are not asking, nor do we expect, you to spend days on this application, and we will evaluate your solution with that understanding.
 
 Thank you for your time!
