@@ -30,12 +30,13 @@ Build a simple enrollment management application where users can create, update,
 - As a Noyo admin, I want to see a list of all my groups.
 - As a Noyo admin, I want to see an individual employee and their enrollments.
 
-### Below is simple wireframe to get you started.
+---
+Below is simple wireframe for a single page app to get you started, feel free to use this for inspiration... or design something you like more.
 
 ![Figure 3](/simple-ui.png)
 
 **Technical Requirements:**  
-- React.js: Build the user interface using React.js.
+- React.js: Build the user interface using React.js v18.*.
 - Next.js: Use Next.js to handle server-side rendering and routing.
 - You can style and construct the UI however you see fit.
 
