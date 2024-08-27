@@ -17,7 +17,6 @@ Build a simple enrollment management application where users can create, update,
 
 ![Figure 2](/data.png)
 
-
 ## Requirements
 
 ### Front-End
@@ -31,6 +30,7 @@ Build a simple enrollment management application where users can create, update,
 - As a Noyo admin, I want to see a list of all my groups.
 - As a Noyo admin, I want to see an individual employee and their enrollments.
 
+### Below is simple wireframe to get you started.
 
 ![Figure 3](/simple-ui.png)
 
@@ -56,7 +56,7 @@ Build a simple enrollment management application where users can create, update,
 
 
 ## Live Coding Extention
-During your onsite, you will discuss and demo your take-home solution. As part of this, there will be a live coding extension where you will implement additional functionality.
+During your onsite, you will discuss and demo your take-home solution. As part of this, there will be a live coding extension where you will implement additional functionality at the discretion of the interviewer.
 
 
 ### Final Word!
