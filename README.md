@@ -7,23 +7,6 @@ Build a simple enrollment management application where users can create, update,
 **Enrollment** - The start and end dates where a particular plan covers an employee.
 
 ## Requirements
-### Back-End
-
-**API Routes:** Use Next.js API routes to create a RESTful API for managing all domain objects. Implement the CRUD operations (Create, Read, Update, Delete) for employees and enrollments.  
-**Database:** Store data in a database (e.g., MongoDB, PostgreSQL, or a cloud solution like Firebase Firestore).  
-
-## Data Modeling
-- A group must have a name, for example, "Noyo Corporation."
-- Each employee must have a first and last name.
-- Each employee must be a member of a group.
-- Each group can offer 1 - 3 types of plans. Medical, Dental, or Vision
-- Each employee can enroll in any of the plans.
-- Each plan has a start and end date.
-
-**TypeScript**: Use TypeScript for type safety.  
-**Code Quality**: Write clean, maintainable code following SOLID principles and best practices. Include comments where necessary and ensure the code is well-structured and extensible (you will have to extend it in your onsite)
-
-![Figure 2](/data.png)
 
 ### Front-End
 **Stories**  
@@ -43,8 +26,25 @@ Build a simple enrollment management application where users can create, update,
 
 Below is simple wireframe for a single page app to get you started, feel free to use this for inspiration... or design something you like more.
 
-![Figure 1](/simple-ui.png)
+![Simple UI](/simple-ui.png)
 
+### Back-End
+
+**API Routes:** Use Next.js API routes to create a RESTful API for managing all domain objects. Implement the CRUD operations (Create, Read, Update, Delete) for employees and enrollments.  
+**Database:** Store data in a database (e.g., MongoDB, PostgreSQL, or a cloud solution like Firebase Firestore).  
+
+## Data Modeling
+- A group must have a name, for example, "Noyo Corporation."
+- Each employee must have a first and last name.
+- Each employee must be a member of a group.
+- Each group can offer 1 - 3 types of plans. Medical, Dental, or Vision
+- Each employee can enroll in any of the plans.
+- Each plan has a start and end date.
+
+**TypeScript**: Use TypeScript for type safety.  
+**Code Quality**: Write clean, maintainable code following SOLID principles and best practices. Include comments where necessary and ensure the code is well-structured and extensible (you will have to extend it in your onsite)
+
+![Data Model](/data.png)
 
 # Deliverables
 - Zip up your code and email it to **coding-challenge at noyo dot com** no later than 24 hrs before your interview.
@@ -55,7 +55,7 @@ Below is simple wireframe for a single page app to get you started, feel free to
 During your onsite, you will discuss and demo your take-home solution. As part of this, there will be a live coding extension where you will implement additional functionality at the discretion of the interviewer.
 
 
-## Final Word!
+### Final Word!
 We are looking for a functional app with excellent quality and an intuitive and responsive UI/UX. Your time is valuable, so you should be able to stand up and deploy a solution in a couple of hours using any one-stop-shop, free cloud platform, and related UI libraries. We are not asking, nor do we expect, you to spend days on this application, and we will evaluate your solution with that understanding.
 
 Thank you for your time!
