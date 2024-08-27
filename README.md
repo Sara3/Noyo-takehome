@@ -1,7 +1,7 @@
 # Coding Challenge: Employee Enrollment Management Application
 
 ## Overview
-Build a simple enrollment management application where users can create, update, delete, and view insurance enrollments for a group of employees.
+Build a simple enrollment management application where users can create, update, delete, and view insurance enrollments for a group of employees. 
 
 **Group** - A group is a collection of individuals covered under a single insurance policy.  
 **Employee** - An employee is defined as an individual who works for an employer and is eligible to participate in the employer's group insurance plan.  
@@ -31,6 +31,9 @@ Build a simple enrollment management application where users can create, update,
 - As a Noyo admin, I want to see a list of all my groups.
 - As a Noyo admin, I want to see an individual employee and their enrollments.
 
+
+![Figure 3](/simple-ui.png)
+
 **Technical Requirements:**  
 - React.js: Build the user interface using React.js.
 - Next.js: Use Next.js to handle server-side rendering and routing.
@@ -48,9 +51,15 @@ Build a simple enrollment management application where users can create, update,
 **Code Quality**: Write clean, maintainable code following SOLID principles and best practices. Include comments where necessary and ensure the code is well-structured and extensible (you will have to extend it in your onsite)
 
 ## Deliverables
-- Zip up the application and email it to coding-challenge at noyo dot com.
+- Zip up your code and email it to **coding-challenge at noyo dot com** no later than 24 hrs before your interview.
 - Deploy the application to a platform like Vercel, Netlify, or any cloud provider.
 
 
 ## Live Coding Extention
 During your onsite, you will discuss and demo your take-home solution. As part of this, there will be a live coding extension where you will implement additional functionality.
+
+
+### Final Word!
+We are looking for a functional app with excellent quality and an intuitive and responsive UI/UX. Your time is valuable, so you should be able to stand up and deploy a solution in a couple of hours using any one-stop-shop, free cloud platform, and related UI libraries. We are not asking, nor do we expect, you to spend days on this application, and we will evaluate your solution with that understanding.
+
+Thank you for your time!
