@@ -1,10 +1,26 @@
+
 # Enrollment Management Application
 
-Build a simple enrollment management application where users can create, update, delete, and view insurance enrollments for a group of employees. 
+This project is a full-stack coding challenge submission. The project contains both frontend and backend components. Below are the instructions on how to set up and run the project.
+
+**Running the Project**
+
+Run the development server: Start the Next.js development server:
+
+```
+npm run dev 
+```
+
+The application will now be running at http://localhost:3000.
+
+Accessing the API: Next.js API routes are located under the pages/api/ directory. These can be accessed via the /api endpoints, e.g., http://localhost:3000/api/some-endpoint
 
 **Group** - A group is a collection of individuals covered under a single insurance policy.  
 **Employee** - An employee is defined as an individual who works for an employer and is eligible to participate in the employer's group insurance plan.  
 **Enrollment** - The start and end dates where a particular plan covers an employee.
+
+**Demo**
+https://www.loom.com/share/2ae1fe68bb4549caa6abdd942d67cd6e?sid=a0cc954f-83a3-4bea-9e97-e7b239eb3728
 
 ## Requirements
 
